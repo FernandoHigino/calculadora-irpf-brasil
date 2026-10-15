@@ -1,0 +1,54 @@
+{
+  "versao_schema": 1,
+  "tabelas": {
+    "2025": {
+      "ano_calendario": 2025,
+      "exercicio": 2026,
+      "versao_regras": "2025.1",
+      "data_publicacao": null,
+      "vigencia_inicio": "2025-01-01",
+      "vigencia_fim": "2025-12-31",
+      "periodicidade": "anual",
+      "fonte": "Receita Federal - Tributação de 2025, incidência anual: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2025",
+      "faixas": [
+        {"limite_superior": 28467.20, "aliquota": 0.0, "deducao": 0.00},
+        {"limite_superior": 33919.80, "aliquota": 0.075, "deducao": 2135.04},
+        {"limite_superior": 45012.60, "aliquota": 0.15, "deducao": 4679.03},
+        {"limite_superior": 55976.16, "aliquota": 0.225, "deducao": 8054.97},
+        {"limite_superior": null, "aliquota": 0.275, "deducao": 10853.78}
+      ],
+      "deducao_dependente": 2275.08,
+      "limite_educacao_por_beneficiario": 3561.50,
+      "desconto_simplificado_percentual": 0.20,
+      "desconto_simplificado_maximo": 16754.34
+    },
+    "2026": {
+      "ano_calendario": 2026,
+      "exercicio": 2027,
+      "versao_regras": "2026.1",
+      "data_publicacao": "2025-11-26",
+      "vigencia_inicio": "2026-01-01",
+      "vigencia_fim": "2026-12-31",
+      "periodicidade": "anual",
+      "fonte": "Receita Federal - Tributação de 2026 e Lei 15.270/2025: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026",
+      "faixas": [
+        {"limite_superior": 29145.60, "aliquota": 0.0, "deducao": 0.00},
+        {"limite_superior": 33919.80, "aliquota": 0.075, "deducao": 2185.92},
+        {"limite_superior": 45012.60, "aliquota": 0.15, "deducao": 4729.91},
+        {"limite_superior": 55976.16, "aliquota": 0.225, "deducao": 8105.85},
+        {"limite_superior": null, "aliquota": 0.275, "deducao": 10904.66}
+      ],
+      "deducao_dependente": 2275.08,
+      "limite_educacao_por_beneficiario": 3561.50,
+      "desconto_simplificado_percentual": 0.20,
+      "desconto_simplificado_maximo": 17640.00,
+      "reducao_anual": {
+        "limite_isencao": 60000.00,
+        "limite_final": 88200.00,
+        "valor_maximo": 2694.15,
+        "termo_constante": 8429.73,
+        "coeficiente": 0.095575
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "versao_schema": 1,
+  "tabelas": {
+    "2025-01-a-04": {
+      "periodicidade": "mensal",
+      "versao_regras": "2025.01-04.1",
+      "vigencia_inicio": "2025-01-01",
+      "vigencia_fim": "2025-04-30",
+      "fonte": "Receita Federal - Tributação de 2025 (janeiro a abril): https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2025",
+      "faixas": [
+        {"limite_superior": 2259.20, "aliquota": 0.0, "deducao": 0.00},
+        {"limite_superior": 2826.65, "aliquota": 0.075, "deducao": 169.44},
+        {"limite_superior": 3751.05, "aliquota": 0.15, "deducao": 381.44},
+        {"limite_superior": 4664.68, "aliquota": 0.225, "deducao": 662.77},
+        {"limite_superior": null, "aliquota": 0.275, "deducao": 896.00}
+      ],
+      "deducao_dependente": 189.59,
+      "desconto_simplificado_maximo": 564.80
+    },
+    "2025-05-a-12": {
+      "periodicidade": "mensal",
+      "versao_regras": "2025.05-12.1",
+      "vigencia_inicio": "2025-05-01",
+      "vigencia_fim": "2025-12-31",
+      "fonte": "Receita Federal - Tributação de 2025 (a partir de maio): https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2025",
+      "faixas": [
+        {"limite_superior": 2428.80, "aliquota": 0.0, "deducao": 0.00},
+        {"limite_superior": 2826.65, "aliquota": 0.075, "deducao": 182.16},
+        {"limite_superior": 3751.05, "aliquota": 0.15, "deducao": 394.16},
+        {"limite_superior": 4664.68, "aliquota": 0.225, "deducao": 675.49},
+        {"limite_superior": null, "aliquota": 0.275, "deducao": 908.73}
+      ],
+      "deducao_dependente": 189.59,
+      "desconto_simplificado_maximo": 607.20
+    },
+    "2026-01-em-diante": {
+      "periodicidade": "mensal",
+      "versao_regras": "2026.1",
+      "vigencia_inicio": "2026-01-01",
+      "vigencia_fim": null,
+      "fonte": "Receita Federal - Tributação de 2026 e Lei 15.270/2025: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026",
+      "faixas": [
+        {"limite_superior": 2428.80, "aliquota": 0.0, "deducao": 0.00},
+        {"limite_superior": 2826.65, "aliquota": 0.075, "deducao": 182.16},
+        {"limite_superior": 3751.05, "aliquota": 0.15, "deducao": 394.16},
+        {"limite_superior": 4664.68, "aliquota": 0.225, "deducao": 675.49},
+        {"limite_superior": null, "aliquota": 0.275, "deducao": 908.73}
+      ],
+      "deducao_dependente": 189.59,
+      "desconto_simplificado_maximo": 607.20,
+      "reducao_mensal": {
+        "limite_isencao": 5000.00,
+        "limite_final": 7350.00,
+        "valor_maximo": 312.89,
+        "termo_constante": 978.62,
+        "coeficiente": 0.133145
+      }
+    }
+  }
+}
