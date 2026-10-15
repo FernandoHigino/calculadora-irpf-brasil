@@ -47,3 +47,14 @@ A tabela mensal cobre janeiro a abril e maio a dezembro de 2025, além da tabela
 Não há sincronização automática com a Receita Federal: mudanças legais exigem interpretação e validação humana, e uma busca automática na web não é fonte suficientemente confiável para mudar cálculos financeiros. Veja [docs/regras_calculo.md](docs/regras_calculo.md) e [docs/funcionamento.md](docs/funcionamento.md).
 
 > Esta versão fornece estimativas mensais e anuais apenas para períodos cadastrados; não substitui a declaração oficial nem orientação fiscal. Confirme as regras vigentes com fontes oficiais antes de usar o resultado para decisões financeiras.
+
+## 📸 Capturas de tela
+
+### Calculadora mensal 
+![Calculadora mensal](assets/calculadora.png)
+
+### Calculadora anual 
+![Calculadora anual IRPF](assets/calculadora(2).png)
+
+### Tabelas e regras
+![Tabelas e regras](assets/calculadora(3).png)
